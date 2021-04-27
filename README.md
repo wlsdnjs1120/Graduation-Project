@@ -19,7 +19,7 @@ And we implemented the function with kotlin.
 
 ## Purpose and Purpose of the Project
 
-1. Purpose of the project
+### 1. Purpose of the project
 
 As more and more people are doing home training due to Corona, 
 we implemented the above function to exercise more efficiently. 
@@ -28,7 +28,7 @@ the camera shows the main joints of your body and the lines connecting them
 so that you can make sure that you are in the right position for the exercise.
 
 
-2. What problems can you solve?
+### 2. What problems can you solve?
 
 When performing this function during exercise, 
 it recognizes the 15 main joints of the body 
@@ -36,7 +36,7 @@ it recognizes the 15 main joints of the body
 and displays the motion lines that connect the joints on the screen.
 
 
-3. Why is this project useful?
+### 3. Why is this project useful?
 
 We developed a home training app, 
 so it can be used more conveniently because it is developed with a smartphone camera that installs the app.
@@ -44,13 +44,13 @@ Also, unlike other apps that tell you the exercise time and exercise list,
 it can be more useful because you can check the exercise posture yourself.
 
 
-4. What kind of people would like to use this project?
+### 4. What kind of people would like to use this project?
 
 Due to Corona, more people are doing home training at home. 
 If they use this function to exercise, I think they will be able to exercise more effectively.
 
 
-5. How does this project work?
+### 5. How does this project work?
 
 Key Class Description
 * AutoFitFrameLayout & AutoFitTextureView: Show Surface View to match display screen of user’s device
@@ -67,7 +67,7 @@ Other Descriptions
 
 ## How to Start a Project
 
-1. Prerequisites required to install and use a project
+### 1. Prerequisites required to install and use a project
 
 To use your smartphone's camera, you must add the code below to the Manifest file in your Android studio.
 <uses-permission android:name="android.permission.CAMERA" />
@@ -76,7 +76,7 @@ To use your smartphone's camera, you must add the code below to the Manifest fil
 There were code to allow the use of cameras, can execute functions on the camera is operating properly.
 
 
-2. How to install and use
+### 2. How to install and use
 
 * Download the Motion Recognition code from github.
 * Run code through Android studio
@@ -87,7 +87,7 @@ There were code to allow the use of cameras, can execute functions on the camera
 
 ## External Resource Information
 
-1. Tensorflow Lite
+### 1. Tensorflow Lite
 
 ![image](https://user-images.githubusercontent.com/57340671/116255993-bc951600-a7ad-11eb-8e6b-fa1dadcc39bb.png)
 
@@ -97,7 +97,7 @@ However, there was a problem that the recognition was slow because of the CPU
 and the user could not recognize the joints of the body when moving.
 Therefore, we used GPU to speed up recognition and implemented major joints by modifying them.
 
-2. Open CV
+### 2. Open CV
 
 ![image](https://user-images.githubusercontent.com/57340671/116255950-b0a95400-a7ad-11eb-81b8-4a6e095e98fd.png)
 
