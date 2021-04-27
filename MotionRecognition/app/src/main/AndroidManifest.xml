@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.motionrecognition">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo2"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo2"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Find"></activity>
+        <activity android:name=".Demo" />
+        <activity android:name=".Video" />
+        <activity android:name=".Grade" />
+        <activity android:name=".usereditDiet2" />
+        <activity android:name=".usereditDiet" />
+        <activity android:name=".BulkupDiet" />
+        <activity android:name=".LowDiet" />
+        <activity android:name=".HealthDiet" />
+        <activity android:name=".Chatbot" />
+        <activity android:name=".Food" />
+        <activity android:name=".Login" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".UserEdit" />
+        <activity android:name=".Setting" />
+        <activity android:name=".ExerciseVideo" />
+        <activity android:name=".ExerciseList" />
+        <activity android:name=".Exercise" />
+        <activity android:name=".RegisterExercise" />
+        <activity android:name=".ExerciseResult" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".CameraActivity"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/MaterialTheme" />
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

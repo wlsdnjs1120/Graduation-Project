@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TT : today training</string>
+    <string name="intro_message">
+        <![CDATA[
+
+
+            PoseEstimation For Mobile
+
+
+        ]]>
+    </string>
+
+</resources>
