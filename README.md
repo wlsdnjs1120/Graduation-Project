@@ -70,9 +70,13 @@ Other Descriptions
 ### 1. Prerequisites required to install and use a project
 
 To use your smartphone's camera, you must add the code below to the Manifest file in your Android studio.
-<uses-permission android:name="android.permission.CAMERA" />
-<uses-feature android:name="android.hardware.camera" />
-<uses-feature android:name="android.hardware.camera.autofocus" />
+
+\<uses-permission android:name="android.permission.CAMERA" />
+
+\<uses-feature android:name="android.hardware.camera" />
+
+\<uses-feature android:name="android.hardware.camera.autofocus" />
+
 There were code to allow the use of cameras, can execute functions on the camera is operating properly.
 
 
