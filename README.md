@@ -17,7 +17,7 @@ And we implemented the function with kotlin.
 
 ***
 
-## Purpose and Purpose of the Project
+## Purpose of the Project
 
 ### 1. Purpose of the project
 
@@ -52,7 +52,7 @@ If they use this function to exercise, I think they will be able to exercise mor
 
 ### 5. How does this project work?
 
-Key Class Description
+Key Class Descriptions
 * AutoFitFrameLayout & AutoFitTextureView: Show Surface View to match display screen of user’s device
 * Camera2BasicFragment, CameraActivity, DimensionExtension.kt : Classes for using camera
 * DrawView.kt : Classes for draw body joint line & point
