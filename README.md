@@ -237,7 +237,7 @@ fun get_point_by_id(keypoints: DoubleArray, id: Int): DoubleArray? {
         return keypoint
     }
 
-    private fun get_angle(p1: DoubleArray, p2: DoubleArray, p3: DoubleArray): Double {
+ private fun get_angle(p1: DoubleArray, p2: DoubleArray, p3: DoubleArray): Double {
         // angle = arcos(p1-p2-p3)
         var ang = -1.0
         val x2 = p2[0]
